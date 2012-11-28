@@ -1,0 +1,51 @@
+nav {
+  width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  .museo-sans-light;
+  color: @medium-gray-text;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: @white;
+  z-index: 99999;
+
+  .nav-wrapper {
+    margin: 0 20px;
+  }
+
+  .hashi-logo {
+    display: block;
+    text-indent: -999999px;
+    background: url(/images/hashi_logo.png) no-repeat 0 0;
+    height: 40px;
+    width: 275px;
+    float: left;
+    margin: 20px;
+  }
+
+  ul {
+    margin: 25px 20px;
+
+    li {
+      display: inline;
+      margin-left: 20px;
+    }
+  }
+
+  .active-nav {
+    color: @blue;
+  }
+
+  li {
+
+    &:hover {
+      background-color: @light-gray-background;
+      padding: 10px;
+      margin-right: -10px;
+      margin-left: 10px;
+      .rounded;
+    }
+  }
+}

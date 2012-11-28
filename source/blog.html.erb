@@ -1,0 +1,35 @@
+---
+title: Blog
+---
+
+<section class="blog-landing article-summaries">
+
+<% blog.articles.each do |article| %>
+<article class="right-aligned">
+<div class="container">
+	<div class="row">
+		<% if article.data.image_url %>
+		<!-- post summary content -->
+		<div class="span6">
+			<img src="assets/photos/new.png" alt="new" width="287" height="284" />
+		</div>	<!-- span -->
+		<div class="span5">
+			<h6 class="meta date"><%= article.date.strftime('%b %e %Y') %></h6>
+			<h1><%= article.title %></h1>
+			<p><%= article.summary %></p>
+			<a class="read-more" href="<%= article.url %>">read more</a>
+		</div>	<!-- span -->
+		<% else %>
+		<div class="span8 offset2">
+			<h6 class="meta date"><%= article.date.strftime('%b %e %Y') %></h6>
+			<h1><%= article.title %></h1>
+			<p><%= article.summary %></p>
+			<a class="read-more" href="<%= article.url %>">read more</a>
+		</div>
+		<% end %>
+	</div>	<!-- row -->
+</div> <!-- container -->
+</article>
+<% end %>
+
+</section> <!-- blog landing -->

@@ -1,0 +1,35 @@
+// footer
+
+footer {
+padding: 80px 0;
+background: @dark-gray-background url(/images/footer_background.png) no-repeat bottom center;
+text-align: center;
+color: @white;
+
+	h1 {
+	color: fade(@white, 70%);
+	}
+
+		.contact-link a {
+		color: @blue;
+		line-height: @base-line-height * 2;
+
+			&:hover {
+			color: @white;
+			}
+
+			&:visited {
+			color: inherit;
+			}
+		} //contact link
+
+	.hashi-logo-monochrome {
+	height: 60px;
+	width: 60px;
+	position: relative;
+	left: 50%;
+	background: url(/images/footer_icon.png) no-repeat 0 0;
+	margin: 30px auto 30px -30px;
+	}
+
+}

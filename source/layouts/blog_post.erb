@@ -1,0 +1,16 @@
+<% wrap_layout :layout do %>
+<section class="page">
+	<article class="blog-post">
+		<div class="container">
+			<div class="row">
+				<div class="span8 offset2">
+					<h6 class="meta date"><%= current_article.date.strftime('%b %e %Y') %></h6>
+					<h1><%= current_article.title %></h1>
+
+					<%= current_article.body %>
+				</div>
+			</div>
+		</div>
+	</article>
+</section>
+<% end %>
