@@ -1,5 +1,6 @@
 source :rubygems
 
+gem "builder", "~> 3.1.4"
 gem "less", "~> 2.2.2"
 gem "middleman", "~> 3.0.6"
 gem "middleman-blog", "~> 3.1.1"
