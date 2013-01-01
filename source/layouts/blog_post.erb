@@ -2,6 +2,13 @@
 <section class="page">
 	<article class="blog-post">
 		<div class="container">
+			<% if current_article.data.post_image_url %>
+			<div class="row">
+				<div class="span8 offset2">
+					<%= image_tag current_article.data.post_image_url %>
+				</div>
+			</div>
+			<% end %>
 			<div class="row">
 				<div class="span8 offset2">
 					<h6 class="meta date"><%= current_article.date.strftime('%b %e %Y') %></h6>
