@@ -32,7 +32,7 @@ is embedded below so you can see the AWS provider in action.
 The true power of the Vagrant AWS integration comes when it is paired with
 local virtualization. VirtualBox (or the upcoming
 [VMware support](http://vimeo.com/hashicorp/vagrant-vmware-fusion-provider-preview)) should be used for local development as much as possible, while
-AWS can satisy some additional use cases:
+AWS can satisfy some additional use cases:
 
 * Develop on a powerful EC2 instance when your local work machine just
   isn't enough, or when you need more development environments than
