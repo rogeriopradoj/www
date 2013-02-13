@@ -1,1 +1,1 @@
-web: ./bin/heroku_run.sh
+web: bundle exec thin start -p $PORT
