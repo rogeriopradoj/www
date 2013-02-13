@@ -16,7 +16,7 @@ exist before.
 
 The provider will be released as open source at the same time as Vagrant 1.1,
 and works on Mac, Windows, and Linux.
-While no release date has been set, Vagrant 1.1 is targetted for later this
+While no release date has been set, Vagrant 1.1 is targeted for later this
 month.
 
 READMORE
