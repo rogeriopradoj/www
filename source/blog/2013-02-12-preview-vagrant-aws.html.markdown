@@ -21,7 +21,8 @@ month.
 
 READMORE
 
-A preview video is embedded below so you can see the AWS provider in action.
+A [preview video](http://vimeo.com/hashicorp/vagrant-aws-provider-preview)
+is embedded below so you can see the AWS provider in action.
 
 <div class="vimeo">
   <iframe src="http://player.vimeo.com/video/59593338" width="630" height="354" frameborder="0" webkitAllowFullScreen="1" mozallowfullscreen="1" allowFullScreen="1">
