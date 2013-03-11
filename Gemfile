@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
 gem "builder", "~> 3.1.4"
 gem "less", "~> 2.2.2"
