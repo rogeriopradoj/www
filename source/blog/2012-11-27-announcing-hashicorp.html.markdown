@@ -1,4 +1,5 @@
 ---
+page_title: Announcing HashiCorp
 title: Announcing HashiCorp
 ---
 

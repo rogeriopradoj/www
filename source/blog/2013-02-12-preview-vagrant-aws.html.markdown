@@ -1,4 +1,5 @@
 ---
+page_title: "Preview: Vagrant AWS Provider"
 title: "Preview: Vagrant AWS Provider"
 ---
 

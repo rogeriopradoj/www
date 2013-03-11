@@ -1,4 +1,5 @@
 ---
+page_title: A New Look for Vagrant
 title: A New Look for Vagrant
 list_image_url: /images/blog/a-new-look-for-vagrant/logo.png
 post_image_url: /images/blog/a-new-look-for-vagrant/logo_wide.png
