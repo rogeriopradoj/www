@@ -39,7 +39,7 @@ with 1.0.x Vagrantfiles, as long as you're not using any plugins. Therefore,
 Vagrant 1.1 is a drop-in replacement for 1.0.x.
 
 The provider interface is fully open source and
-[documented](http://vagrantup-docs.herokuapp.com/v2/plugins/providers.html),
+[documented](http://docs.vagrantup.com/v2/plugins/providers.html),
 allowing for plugins to implement new providers.
 [AWS](https://github.com/mitchellh/vagrant-aws) and
 [RackSpace Cloud](https://github.com/mitchellh/vagrant-rackspace) plugins
