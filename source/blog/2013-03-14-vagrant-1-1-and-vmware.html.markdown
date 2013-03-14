@@ -65,7 +65,7 @@ A full, detailed changelog can be [found here](https://github.com/mitchellh/vagr
 </div>
 
 The VMware Fusion provider allows you to
-[reap the benefits of VMware technology](http://www.vagrantup.com/vmware-Ygz22xgb#learn-more)
+[reap the benefits of VMware technology](http://www.vagrantup.com/vmware#learn-more)
 using the same easy Vagrant workflow
 you've come to know and love on top of VMware Fusion machines. The provider
 supports Fusion 5, and works with the Fusion 5 trial, personal, and
